@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![Temlate](https://github.com/Ridgal/Chat-template/blob/master/src/assets/images/screen.png)
+![Temlate](https://github.com/Ridgal/Chat-template/blob/master/src/assets/images/Screen.png)
 
 ## Available Scripts
 
