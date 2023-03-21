@@ -1,0 +1,54 @@
+#element::-webkit-scrollbar {
+  width: 3px;
+  background-color: #ffffff;
+};
+
+#element::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00c6fb, #005bea);
+};
+
+#element::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+};
+
+.chatlist {
+  height: 41rem;
+  overflow-y: scroll;
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 16px;
+    cursor: pointer;
+    @include overflow-text;
+    &__logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 2px;
+      gap: 10px;
+    };
+  };
+  &__item {
+    &__title {
+      max-width: 16rem;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 20px;
+      color: #201F1E;
+      @include overflow-text;
+    };
+    &__text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      color: #605E5C;
+    };
+  };
+};

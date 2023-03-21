@@ -1,0 +1,34 @@
+.search {
+  height: 5rem;
+  padding: 0 1rem 0 1rem;
+  &__input {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background: #FFFFFF;
+    padding: 6px 12px;
+    border: 1px solid #A19F9D;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  &__clip {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 87.2%;
+    left: 81%;
+    color: black;
+    border-radius: 4px;
+    rotate: 204deg;
+  }
+  &__btn {
+    position: absolute;
+    width: 4.5rem;
+    height: 2.5rem;
+    top: 86.2%;
+    left: 83%;
+    background-color: #227fff;
+    color: white;
+    border-radius: 4px;
+  }
+}

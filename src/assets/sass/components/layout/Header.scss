@@ -1,0 +1,23 @@
+.header {
+  box-shadow: inset 0px -1px 0px rgba(32, 31, 30, 0.12);
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px 20px 16px;
+    gap: 8px;
+    width: 180px;
+    height: 64px;
+    &__icon {
+      width: 20px;
+      height: 20px;
+      color: #838382;
+    }
+    &__title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}

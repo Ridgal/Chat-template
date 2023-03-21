@@ -1,0 +1,18 @@
+// Config
+@import 'config/variables';
+@import 'config/base.scss';
+@import 'config/layout.scss';
+
+// Pages
+@import 'components/pages/PageIndex.scss';
+@import 'components/pages/Sidebar.scss';
+@import 'components/pages/ChatPage.scss';
+
+// Layout
+@import 'components/layout/Header.scss';
+@import 'components/layout/ChatItemList.scss';
+@import 'components/layout/Input.scss';
+@import 'components/layout/Chat.scss';
+
+// Shared
+@import 'components/shared/Loader.scss';
